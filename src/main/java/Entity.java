@@ -12,3 +12,14 @@
     @Column(name = "id_exec")
     @JsonIgnore
     private Long idExec;
+
+  MultipartFile multipartFile = new MockMultipartFile(files.getName(), new FileInputStream(files));
+
+/*
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<version>3.1.1.RELEASE</version>
+		</dependency>
+*/
+   
